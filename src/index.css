@@ -1,0 +1,162 @@
+.bg-hero {
+  /* The image used */
+  background-image: url("images/railbg.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  height: 100vh
+}
+
+.bg-hero-inner {
+  /* The image used */
+  background: url("images/railbg1.jpg") center top;
+  padding-bottom: 50px;
+  background-size: cover;
+}
+
+.bg-hero-service {
+  /* The image used */
+  background: url("images/service.jpg") center top;
+  background-size: cover;
+}
+
+.overlaybg {
+  background: rgba(255, 255, 255, .7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0
+}
+
+.text-middle {
+  width: 100%;
+  height: 100%;
+  height: 650px;
+  display: table;
+  /*text-align: center;*/
+
+}
+
+.text-middle>.text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.text-middle>.text h1 {
+  color: #00076a;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.text-middle>.text p {
+  font-size: 24px;
+}
+
+.font-size24 {
+  font-size: 24px;
+}
+
+h1 {
+  color: #00076a;
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+}
+
+.text-middle>.text p span {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.border {
+  background: #fff
+}
+
+.list {
+  padding: 30px;
+  font-size: 16px;
+}
+
+.list li {
+  border-bottom: dashed 1px #ddd;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+.navbar-nav .nav-link.active {
+  color: #fff !important;
+  background: #00076a !important;
+  border-radius: 3px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff !important;
+  background: #00076a !important;
+  border-radius: 3px;
+}
+
+.footerbg {
+  background: #00076a;
+  color: #fff
+}
+
+.footerbg .text-body-secondary {
+  color: #fff !important
+}
+
+.footerbg a {
+  color: #fff !important
+}
+
+.footerbg a:hover {
+  color: #fff !important;
+  opacity: .7 !important
+}
+
+.roundedbox {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px 30px !important;
+}
+
+.roundedbox h3 {
+  color: #00076a;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+
+.client h5 {
+  font-size: 16px;
+}
+
+.ad {
+  position: sticky;
+  right: 0;
+  z-index: 99;
+  top: 100px
+}
+
+.icon-title {
+  display: flex;
+  align-items: center;
+}
+
+.icon-title i {
+  margin-right: 10px;
+  margin-bottom: 0px !important;
+  /* Adjust space between icon and title */
+}
