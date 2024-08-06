@@ -160,3 +160,40 @@ h1 {
   margin-bottom: 0px !important;
   /* Adjust space between icon and title */
 }
+
+.text-middle-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.img-fluid-he {
+  height: 500;
+  display: block;
+  margin: 0 auto;
+}
+
+.equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.equal-height .img-fluid {
+  height: 100%;
+  object-fit: cover;
+}

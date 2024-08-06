@@ -44,10 +44,10 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="col-sm-6 mx-auto text-center ">
-                            <div className="text-middle">
+                            <div className="text-middle-img">
                                 <div className="text">
 
-                                    <img src='images/track.png'></img>
+                                    <img src='images/about.png' className='img-fluid'></img>
 
 
                                 </div>

@@ -72,10 +72,6 @@ export const electricalServices = [
             "Installation of IPS System",
             "Installation of NMS"
         ]
-    },
-    {
-        title: "HNRM Tele Construction Pvt. Ltd",
-        items: ["HNRM Tele Construction Pvt. Ltd. holds certification from the Government of the National Capital Territory of Delhi Labour Department, authorizing us to execute electrical installation projects with precision and compliance."]
     }
 ];
 

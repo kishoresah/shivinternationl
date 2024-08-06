@@ -24,45 +24,32 @@ const Services = () => {
 
                             <div className="row mb-2" key={index}>
                                 <div className="col-md-6">
-                                    <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                    <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative equal-height">
                                         <div className="col p-4 d-flex flex-column position-static">
 
+                                            <img src="images/items1.png" className="img-fluid" />
 
-
-                                            <p className="card-text mb-auto">We specialize in supplying high-
-                                                quality railway signal equipment,
-                                                including signal lights,
-                                                switches, and advanced
-                                                communication systems, ensuring
-                                                safe and efficient rail operations."</p>
-
-                                        </div>
-                                        <div className="col-auto d-none d-lg-block">
-                                            <img src="images/track.png" />
 
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                    <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative equal-height">
                                         <div className="col p-4 d-flex flex-column position-static">
-
                                             <h3 className="mb-0">{el.title}</h3>
-
                                             <ul>
                                                 {el.items.map((subItem, subIndex) => (
                                                     <li key={subIndex}>{subItem}</li>
                                                 ))}
                                             </ul>
-
                                         </div>
                                         <div className="col-auto d-none d-lg-block">
                                             <img src="images/telecom.png" />
-
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
 
                         ))}
                     </div>
@@ -78,20 +65,11 @@ const Services = () => {
                                     <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                                         <div className="col p-4 d-flex flex-column position-static">
 
+                                            <img src="images/items2.png" className="img-fluid" />
 
-
-                                            <p className="card-text mb-auto">We specialize in supplying high-
-                                                quality railway signal equipment,
-                                                including signal lights,
-                                                switches, and advanced
-                                                communication systems, ensuring
-                                                safe and efficient rail operations."</p>
 
                                         </div>
-                                        <div className="col-auto d-none d-lg-block">
-                                            <img src="images/track.png" />
 
-                                        </div>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
@@ -129,18 +107,12 @@ const Services = () => {
                                     <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                                         <div className="col p-4 d-flex flex-column position-static">
 
+                                            <img src="images/items22.png" />
 
-
-                                            <p className="card-text mb-auto">We specialize in supplying high-
-                                                quality railway signal equipment,
-                                                including signal lights,
-                                                switches, and advanced
-                                                communication systems, ensuring
-                                                safe and efficient rail operations."</p>
 
                                         </div>
                                         <div className="col-auto d-none d-lg-block">
-                                            <img src="images/track.png" />
+
 
                                         </div>
                                     </div>
