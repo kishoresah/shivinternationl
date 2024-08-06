@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import Partner from './Partner';
 import Client from './Client';
 const Home = () => {
+
+
+
     return <>
         <div className="bg-hero">
 

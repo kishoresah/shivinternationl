@@ -86,3 +86,18 @@ export const electricalServicesCertification = [
     }
 ];
 
+export const pageTitles = {
+    home: "Home :: Shiv Shakti International  ",
+    about: "About Us :: Shiv Shakti International",
+    services: "Services :: Shiv Shakti International",
+    contactus: "Contact Us :: Shiv Shakti International",
+    vision: "Vision :: Shiv Shakti International",
+}
+
+export const pageDescriptions = {
+    home: "Welcome to our homepage. Discover our services and offerings.",
+    services: "Learn more about the services we offer.",
+    about: "Get to know more about our company and team.",
+    contactus: "Get in touch with us for more information.",
+    vision: "Understand our vision and future goals."
+};

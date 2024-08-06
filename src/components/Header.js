@@ -1,10 +1,46 @@
+import { useEffect } from 'react';
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { pageDescriptions, pageTitles } from './constants';
 
 const Header = () => {
     const location = useLocation();
 
     const isActive = (path) => location.pathname === path;
+
+    const setMetaTags = (title, description) => {
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        if (metaDescription) {
+            metaDescription.setAttribute("content", description);
+        } else {
+            metaDescription = document.createElement('meta');
+            metaDescription.name = "description";
+            metaDescription.content = description;
+            document.head.appendChild(metaDescription);
+        }
+    };
+
+    useEffect(() => {
+
+        switch (location.pathname) {
+            case "/services":
+                setMetaTags(pageTitles.services, pageDescriptions.services);
+                break;
+            case "/about":
+                setMetaTags(pageTitles.about, pageDescriptions.about);
+                break;
+            case "/contact":
+                setMetaTags(pageTitles.contactus, pageDescriptions.contactus);
+                break;
+            case "/vision":
+                setMetaTags(pageTitles.vision, pageDescriptions.vision);
+                break;
+            default:
+                setMetaTags(pageTitles.home, pageDescriptions.home);
+                break;
+        }
+    }, [])
 
     return (
         <nav className="navbar navbar-expand-md bg-white">
