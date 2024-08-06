@@ -46,7 +46,7 @@ const Header = () => {
         <nav className="navbar navbar-expand-md bg-white">
             <div className="container">
 
-                <Link className="navbar-brand" to="/"><img src="images/logo.png" alt="Logo" /></Link>
+                <Link className="navbar-brand" to="/"><img src="images/logo.png" alt="Logo" width={260} /></Link>
 
                 <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

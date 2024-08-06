@@ -27,8 +27,6 @@ const Contact = () => {
                                     <p className="text-center ">
                                         Authorized Contractor & Service Provider
                                         for Indian Railway
-
-
                                     </p>
                                     <p className="text-center ">
 
@@ -37,19 +35,13 @@ const Contact = () => {
                                         Phase -1 New Delhi - 110020
 
                                     </p>
-
-
-
                                 </div>
                             </div>
                         </div>
                         <div className="col-sm-6 mx-auto text-center ">
                             <div className="text-middle-img">
                                 <div className="text">
-
-                                    <img src='images/about.png' className='img-fluid'></img>
-
-
+                                    <img src='images/about.png' className='img-fluid img-train'></img>
                                 </div>
                             </div>
                         </div>
