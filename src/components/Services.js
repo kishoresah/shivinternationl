@@ -44,7 +44,7 @@ const Services = () => {
                                             </ul>
                                         </div>
                                         <div className="col-auto d-none d-lg-block">
-                                            <img src="images/telecom.png" />
+
                                         </div>
                                     </div>
                                 </div>
@@ -86,7 +86,7 @@ const Services = () => {
 
                                         </div>
                                         <div className="col-auto d-none d-lg-block">
-                                            <img src="images/telecom.png" />
+
 
                                         </div>
                                     </div>
@@ -131,7 +131,7 @@ const Services = () => {
 
                                         </div>
                                         <div className="col-auto d-none d-lg-block">
-                                            <img src="images/telecom.png" />
+
 
                                         </div>
                                     </div>

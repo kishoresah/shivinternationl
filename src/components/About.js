@@ -32,7 +32,6 @@ const About = () => {
                             <div className="row">
                                 <div className='mb-3'>
                                     <h2>Our Group Organogram</h2>
-                                    <h4>Our Group</h4>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">

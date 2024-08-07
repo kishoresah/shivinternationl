@@ -31,7 +31,7 @@ const Contact = () => {
                                     <p className="text-center ">
 
                                         Office Address : C-99 Ground Floor
-                                        DDA Shed Okhala Industrial Area
+                                        DDA Shed Okhla Industrial Area
                                         Phase -1 New Delhi - 110020
 
                                     </p>
