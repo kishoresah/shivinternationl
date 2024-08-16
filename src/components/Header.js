@@ -43,36 +43,48 @@ const Header = () => {
     }, [])
 
     return (
-        <nav className="navbar navbar-expand-md bg-white">
-            <div className="container">
+        <header id="header" className="header d-flex align-items-center fixed-top">
+            <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-                <Link className="navbar-brand" to="/"><img src="images/logo.png" alt="Logo" width={260} /></Link>
+                <a href="#" className="logo d-flex align-items-center me-auto me-lg-0">
+                    {/* Uncomment the line below if you also wish to use an image logo */}
+                    <img src="assets/img/logo.png" alt="" />
+                    {/*<h1 className="sitename">GP</h1>*/}
 
-                <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
+                </a>
 
-                <div className="navbar-collapse collapse rtl" id="navbarsExample04">
-                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
-                            <Link className={`nav-link ${isActive('/') ? 'active' : ''}`} to="/">Home</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className={`nav-link ${isActive('/about') ? 'active' : ''}`} to="/about">About Us</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className={`nav-link ${isActive('/contact') ? 'active' : ''}`} to="/contact">Contact Us</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className={`nav-link ${isActive('/services') ? 'active' : ''}`} to="/services">Services</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className={`nav-link ${isActive('/vision') ? 'active' : ''}`} to="/vision">Vision</Link>
-                        </li>
+                <nav id="navmenu" className="navmenu">
+                    <ul>
+                        <li><a href="#" className="active">Home<br /></a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#vision">Vision</a></li>
+                        {/*<li className="dropdown"><a href="#"><span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="#">Dropdown 1</a></li>
+                                <li className="dropdown"><a href="#"><span>Deep Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
+                                    <ul>
+                                        <li><a href="#">Deep Dropdown 1</a></li>
+                                        <li><a href="#">Deep Dropdown 2</a></li>
+                                        <li><a href="#">Deep Dropdown 3</a></li>
+                                        <li><a href="#">Deep Dropdown 4</a></li>
+                                        <li><a href="#">Deep Dropdown 5</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Dropdown 2</a></li>
+                                <li><a href="#">Dropdown 3</a></li>
+                                <li><a href="#">Dropdown 4</a></li>
+                            </ul>
+                        </li>*/}
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
-                </div>
+                    <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                </nav>
+
+                {/* <a className="btn-getstarted" href="index.html#about">Get Started</a>*/}
+
             </div>
-        </nav>
+        </header>
     );
 };
 

@@ -1,65 +1,42 @@
 import React from 'react';
-import Header from './Header';
-import Partner from './Partner';
-import Footer from './Footer';
 
 const About = () => {
     return <>
-        <div className="bg-hero bg-hero-inner">
-            <div className="overlaybg">
-                <Header></Header>
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-sm-8 mx-auto">
-                            <div className="text-middle">
-                                <div className="text">
-                                    <h1>About our Group
-                                    </h1>
-                                    <p> <span> Shiv Shakti International (Estd. -2018)</span> & HNRM Tele construction Pvt. Ltd (Estd.- 2021) is a well-diversified and professionally managed company headquartered in Delhi, India.
-                                    </p>
+        <section id="about" className="about section">
 
-                                    <p> <span> Shiv Shakti International </span> is authorized supplier and service provider of railway signaling and telecom equipment. we offer expertise in providing solutions related to railway signaling systems and
-                                        telecommunication infrastructure for the railway industry.
-                                    </p>
+            <div className="container" data-aos="fade-up" data-aos-delay="100">
 
-                                    <p>
-                                        <span>HNRM Tele Construction Pvt. Ltd. </span> is a specialized expansion focusing on construction work related to electrical installations. Additionally, HNRM is an authorized supplier and service provider for railway signaling and telecom equipment.
-                                        Our group believes strongly in diversification, which is why we have established two separate companies to cater to diverse needs and opportunities.
-                                    </p>
-                                </div>
-                            </div>
+                <div className="row gy-4">
+                    <div className="col-lg-6 order-1 order-lg-2">
+                        <img src="assets/img/about.jpg" className="img-fluid" alt="" />
+                    </div>
+                    <div className="col-lg-6 order-2 order-lg-1 content">
+                        <h3>About our Group</h3>
+                        <p className="fst-italic">
+                            <b>Shiv Shakti International (Estd. -2018) Harish Poddar (CEO) & HNRM Tele construction Pvt. Ltd (Estd.- 2021) Rajeev Poddar (CEO)</b>is a well-diversified and professionally managed company headquartered in Delhi, India.
+                        </p>
+                        <ul>
+                            <li><i className="bi bi-check2-all"></i> <span><b>Shiv Shakti International </b>is authorized supplier and service provider of railway signaling and telecom equipment.</span></li>
 
-                            <div className="row">
-                                <div className='mb-3'>
-                                    <h2>Our Group Organogram</h2>
-                                </div>
-                                <div className="col-md-6">
-                                    <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                                        <div className="col p-4 d-flex flex-column position-static">
+                            <li><i className="bi bi-check2-all"></i> <span>we offer expertise in providing solutions related to railway signaling systems and telecommunication infrastructure for the railway industry.</span></li>
 
-                                            <h3 className="mb-0">Shiv Shati International (Harish Poddar
-                                                (CEO))
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </div>
+                            <li><i className="bi bi-check2-all"></i> <span><b>HNRM Tele Construction Pvt. Ltd. </b>is a specialized expansion focusing on construction work related to electrical installations.</span></li>
 
-                                <div className="col-md-6">
-                                    <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                                        <div className="col p-4 d-flex flex-column position-static">
-                                            <h3 className="mb-0">HNRM Tele
-                                                Construction Pvt. Ltd. (Rajeev Poddar
-                                                (CEO))
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                            <li><i className="bi bi-check2-all"></i> <span> Additionally, HNRM is an authorized supplier and service provider for railway signaling and telecom equipment.</span></li>
+
+                            <li><i className="bi bi-check2-all"></i> <span>Our group believes strongly in diversification, which is why we have established two separate companies to cater to diverse needs and opportunities.</span></li>
+
+
+                        </ul>
+
                     </div>
                 </div>
-                <Footer></Footer>
-            </div></div></>;
+
+            </div>
+
+        </section>
+
+    </>;
 };
 
 export default About;

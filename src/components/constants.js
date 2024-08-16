@@ -1,12 +1,12 @@
 export const visionData = [
-    { icon: "fa fa-users fa-3x mb-3", title: "Vendor Relationship", desc: "Long standing relationship with RDSO approved vendors and OEM" },
-    { icon: "fa fa-wrench fa-3x mb-3", title: "Installation & Services", desc: "We boast a technically proficient team ready for installation." },
-    { icon: "fa fa-lightbulb fa-3x mb-3", title: "Strategic & Technology Driven", desc: "Long-term planning with innovative technological solutions." },
-    { icon: "fa fa-truck fa-3x mb-3", title: "Timely Delivery", desc: "Punctual deliveries highlight our dedication to clients." },
+    { icon: "bi bi-people", title: "Vendor Relationship", desc: "Long standing relationship with RDSO approved vendors and OEM" },
+    { icon: "bi bi-wrench", title: "Installation & Services", desc: "We boast a technically proficient team ready for installation." },
+    { icon: "bi bi-lightbulb", title: "Strategic & Technology Driven", desc: "Long-term planning with innovative technological solutions." },
+    { icon: "bi bi-stopwatch", title: "Timely Delivery", desc: "Punctual deliveries highlight our dedication to clients." },
 
-    { icon: "fa fa-handshake fa-3x mb-3", title: "Client Relationship", desc: "Building enduring client relationships through trust, collaboration & superior service." },
+    { icon: "bi bi-people", title: "Client Relationship", desc: "Building enduring client relationships through trust, collaboration & superior service." },
 
-    { icon: "fa fa-user-circle fa-3x mb-3", title: "Human Resources", desc: "Focus on promoting Inhouse Talent & Succession Management." },
+    { icon: "bi bi-person", title: "Human Resources", desc: "Focus on promoting Inhouse Talent & Succession Management." },
 
 ]
 
@@ -97,3 +97,22 @@ export const pageDescriptions = {
     contactus: "Get in touch with us for more information.",
     vision: "Understand our vision and future goals."
 };
+
+export const address = {
+    address: "C-99 Ground Floor DDA Shed Okhla Industrial Area Phase -1 New Delhi - 110020",
+    phone: "+1 5589 55488 55",
+    address1: "C-99 Ground Floor DDA Shed",
+    address2: "Okhla Industrial Area Phase -1",
+    address3: "New Delhi - 110020",
+    phone: "+1 5589 55488 55",
+    email: "info@example.com",
+    googleMapAddress: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25375.17425456398!2d77.23706349947894!3d28.537911891131873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3e8cacc5ef9%3A0xa4b8a9f9198e4d6d!2sOkhla%20Industrial%20Estate%2C%20New%20Delhi%2C%20Delhi!5e1!3m2!1sen!2sin!4v1723647667133!5m2!1sen!2sin",
+}
+
+export const companyInfo = {
+    twitter: "",
+    facebook: "",
+    insta: "",
+    linkedin: "",
+    name: "Shiv Shakti International"
+}

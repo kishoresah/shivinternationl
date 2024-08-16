@@ -4,10 +4,11 @@ import { Carousel } from 'react-responsive-carousel';
 
 const Partner = () => {
     return <>
-        <div id="carouselExampleInterval" className="carousel slide oem-partner" data-bs-ride="carousel">
-            <div className="carousel-inner roundedbox mt-5">
+        <section id="partner" class="clients notsection">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div >
-                    <h3>OEM PARTNER</h3>
+                    <h3>Oem Partner</h3>
                 </div>
                 <Carousel autoPlay={true} infiniteLoop={true}>
 
@@ -29,11 +30,11 @@ const Partner = () => {
                         <div className="border col-sm-3"> <img src="images/9.jpg" className="d-block w-100" alt="..." /></div>
                         <div className="border col-sm-3"> <img src="images/10.jpg" className="d-block w-100" alt="..." /></div>
                         <div className="border col-sm-3"> <img src="images/11.jpg" className="d-block w-100" alt="..." /></div>
-                        <div className="border col-sm-3"> <img src="images/8.jpg" className="d-block w-100" alt="..." /></div>
+                        <div className="border col-sm-3"> <img src="images/1.jpg" className="d-block w-100" alt="..." /></div>
                     </div>
                 </Carousel>
             </div>
-        </div>
+        </section>
     </>;
 };
 
