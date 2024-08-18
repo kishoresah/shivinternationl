@@ -16,16 +16,19 @@ const Footer = () => {
                                 <p>{address.address1}</p>
                                 <p>{address.address2}</p>
                                 <p>{address.address3}</p>
-                                <p className="mt-3"><strong>Phone:</strong> <span>{address.phone}</span></p>
-                                <p><strong>Email:</strong> <span>{address.email}</span></p>
+                                <p className="mt-3"><strong>Phone:</strong> <span>{address.phone}, {address.phone1}</span></p>
+                                <p className="mt-3"><strong>Whatsapp Number:</strong> <span>{address.wsphone}</span></p>
+
+
+                                <p><strong>Email:</strong> <span>{address.email}, {address.email1}</span></p>
                             </div>
-                            <div className="social-links d-flex mt-4">
+                            {/*<div className="social-links d-flex mt-4">
                                 <a href={
                                     companyInfo.twitter}><i className="bi bi-twitter-x"></i></a>
                                 <a href={companyInfo.facebook}><i className="bi bi-facebook"></i></a>
                                 <a href={companyInfo.insta}><i className="bi bi-instagram"></i></a>
                                 <a href={companyInfo.linkedin}><i className="bi bi-linkedin"></i></a>
-                            </div>
+                            </div>*/}
                         </div>
 
                         <div className="col-lg-2 col-md-3 footer-links">
@@ -51,7 +54,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="copyright">Copyright 1999-2024
+            <div className="copyright">
                 <div className="container text-center">
                     <p>© <span>Copyright 2024 </span> <strong className="px-1 sitename">{companyInfo.name}</strong> <span>All Rights Reserved</span></p>
                     <div className="credits">

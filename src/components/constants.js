@@ -100,12 +100,14 @@ export const pageDescriptions = {
 
 export const address = {
     address: "C-99 Ground Floor DDA Shed Okhla Industrial Area Phase -1 New Delhi - 110020",
-    phone: "+1 5589 55488 55",
+    phone: "+91 9540159332",
+    wsphone: "+91 9540159332",
+    phone1: "+91 9717447487",
     address1: "C-99 Ground Floor DDA Shed",
     address2: "Okhla Industrial Area Phase -1",
     address3: "New Delhi - 110020",
-    phone: "+1 5589 55488 55",
-    email: "info@example.com",
+    email: "ssi4solar@gmail.com",
+    email1: "admin@shivshaktiinternational.com",
     googleMapAddress: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25375.17425456398!2d77.23706349947894!3d28.537911891131873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3e8cacc5ef9%3A0xa4b8a9f9198e4d6d!2sOkhla%20Industrial%20Estate%2C%20New%20Delhi%2C%20Delhi!5e1!3m2!1sen!2sin!4v1723647667133!5m2!1sen!2sin",
 }
 

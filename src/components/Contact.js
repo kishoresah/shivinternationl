@@ -28,7 +28,7 @@ const Contact = () => {
                             <i className="bi bi-telephone flex-shrink-0"></i>
                             <div>
                                 <h3>Call Us</h3>
-                                <p>{address.phone}</p>
+                                <p>{address.phone}, {address.phone1}</p>
                             </div>
                         </div>{/* End Info Item */}
 
@@ -36,7 +36,7 @@ const Contact = () => {
                             <i className="bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h3>Email Us</h3>
-                                <p>{address.email}</p>
+                                <p>{address.email}, {address.email1}</p>
                             </div>
                         </div>{/* End Info Item */}
 
